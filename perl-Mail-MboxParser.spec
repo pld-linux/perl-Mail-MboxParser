@@ -8,13 +8,13 @@
 Summary:	Mail::MboxParser - read-only access to UNIX-mailboxes
 Summary(pl):	Mail::MboxParser - dostêp w trybie odczytu do uniksowych skrzynek pocztowych
 Name:		perl-Mail-MboxParser
-Version:	0.46
+Version:	0.47
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bd72364b54f43ff5a093ada9c9cc3eef
+# Source0-md5:	5f75413b59b17651f46babbba723f84c
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
