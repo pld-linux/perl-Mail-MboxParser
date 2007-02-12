@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	MboxParser
 Summary:	Mail::MboxParser - read-only access to UNIX-mailboxes
-Summary(pl):	Mail::MboxParser - dostêp w trybie odczytu do uniksowych skrzynek pocztowych
+Summary(pl.UTF-8):   Mail::MboxParser - dostÄ™p w trybie odczytu do uniksowych skrzynek pocztowych
 Name:		perl-Mail-MboxParser
 Version:	0.51
 Release:	2
@@ -30,11 +30,11 @@ UNIX-mailboxes. It offers only a subset of methods to get 'straight to
 the point'. More sophisticated things can still be done by invoking
 any method from MIME::Tools on the appropriate return values.
 
-%description -l pl
-Ten modu³ próbuje daæ uproszczony dostêp do standardowych uniksowych
-skrzynek pocztowych. Oferuje tylko podzbiór metod. Bardziej wymy¶le
-rzeczy nadal mo¿na robiæ wywo³uj±c dowoln± metodê z MIME::Tools na
-w³a¶ciwych warto¶ciach zwróconych przez ten modu³.
+%description -l pl.UTF-8
+Ten moduÅ‚ prÃ³buje daÄ‡ uproszczony dostÄ™p do standardowych uniksowych
+skrzynek pocztowych. Oferuje tylko podzbiÃ³r metod. Bardziej wymyÅ›le
+rzeczy nadal moÅ¼na robiÄ‡ wywoÅ‚ujÄ…c dowolnÄ… metodÄ™ z MIME::Tools na
+wÅ‚aÅ›ciwych wartoÅ›ciach zwrÃ³conych przez ten moduÅ‚.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
